@@ -1,0 +1,32 @@
+h1{
+    color: red;
+    font-size: 24px;
+    background-color: red;
+}
+
+.p1{
+    background-color: yellow;
+    padding: 10px;
+}
+.p2{
+    text-align: center;
+}
+.d1{
+    border: 1px solid black;
+}
+.d2{
+    border: 1px solid black;
+    background: red;
+}
+.d1 h2{
+    color: blue;
+}
+.d2 h2{
+    color: blue;
+}
+.l1{
+    font-weight: bold;
+}
+.l2{
+    font-weight: italic;
+}
