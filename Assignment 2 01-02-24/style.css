@@ -1,0 +1,128 @@
+body {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.main-section {
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+    align-self: center;
+    width: 33%;
+    gap: 5px;
+}
+
+.section-1 {
+    display: flex;
+    background-color: lightskyblue;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 28px;
+}
+
+.section-2 {
+    display: flex;
+    height: 350px;
+    gap: 5px;
+}
+
+.section-3 {
+    display: flex;
+    height: 90px;
+    gap: 5px;
+}
+
+.section-4 {
+    display: flex;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 28px;
+    background-color: orangered;
+}
+
+.sub-section-21 {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    gap: 5px;
+}
+
+.sec-211 {
+    height: 45%;
+    background-color: pink;
+    color: white;
+    font-size: 28px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.sec-212 {
+    height: 55%;
+    background-color: lightgreen;
+    color: white;
+    font-size: 28px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.sec-221 {
+    height: 72%;
+    background-color: orange;
+    color: white;
+    font-size: 28px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    align-content: center;
+}
+
+p {
+    font-size: 12px;
+    /* align-self: center; */
+}
+
+.sec-222 {
+    height: 28%;
+    background-color: gray;
+    color: white;
+    font-size: 28px;
+    display: flex;
+    align-items: self-start;
+    justify-content: center;
+}
+
+.sub-section-22 {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    gap: 5px;
+}
+
+.sub-section-31 {
+    width: 70%;
+    background-color: green;
+    color: white;
+    font-size: 28px;
+    display: flex;
+    align-items: self-start;
+    justify-content: center;
+
+}
+
+.sub-section-32 {
+    width: 30%;
+    background-color: pink;
+    color: white;
+    font-size: 23px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
