@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="contact.css" />
+  </head>
+
+  <body>
+    <div class="main-section" style="z-index: -10;">
+        <!-- <img src="https://images.unsplash.com/photo-1455849318743-b2233052fcff?q=80&w=1769&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"> -->
+      <div class="navigation-bar">
+        <div class="heading">My Portfolio</div>
+        <div class="links">
+          <a id="home" href="portfolio.html">Home</a>
+          <a href="about.html">About Me</a>
+          <a href="contact.html">Contact Us</a>
+        </div>
+      </div>
+      <div class="contact-form">
+        <div class="form">
+          <form>
+            <div class="one">
+              <label>Name : </label>
+              <input
+                type="text"
+                name="name"
+                id="1"
+                placeholder="Enter your name"
+                required
+              />
+            </div>
+            <div class="one">
+              <label>Email : </label>
+              <input
+                type="email"
+                name="email"
+                id="2"
+                placeholder="Enter your email"
+                required
+              />
+            </div>
+            <div class="one">
+              <label>Mobile no.</label>
+              <input
+                type="number"
+                name="number"
+                id="3"
+                placeholder="Enter yout Mobile No."
+                required
+              />
+            </div>
+            <div class="two">
+              <label>Gender : </label>
+              <input type="radio" name="gender" /> Male
+              <input type="radio" name="gender" /> Female
+            </div>
+            <div class="five">
+                <label for="who">Who are you..?  </label>
+                <select name="who">
+                  <option>Recruiter</option>
+                  <option>Student</option>
+                  <option>HR Manager</option>
+                  <option>Alumini</option>
+                </select>
+              </div>
+            <div class="three">
+              <label>Purpose : </label>
+              <input type="checkbox" name="purpose" /> Collaboration
+              <input type="checkbox" name="purpose" /> Hiring
+              <input type="checkbox" name="purpose" /> Internship
+            </div>
+            <div class="four">
+                <a type="button" name="submit">Submit</a>
+            </div>
+          </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
