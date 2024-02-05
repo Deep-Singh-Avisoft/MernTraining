@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 4 05-02-24
+    </title>
+</head>
+<body>
+    <h1>
+        Simple Intrest Calculater
+    </h1>
+
+    <script>
+        let principal = prompt("Enter Principal amount" , );
+        let rateOfIntrest = prompt("Enter rate of intrest per annum", );
+        let years = prompt("Enter time period in years", );
+        principal = parseInt(principal);
+        rateOfIntrest = parseInt(rateOfIntrest);
+        years = parseInt(years);
+
+        let simpleIntrest = (principal * rateOfIntrest * years) / 100;
+
+        alert(`Simple Intrest for ${years} years at the rate of ${rateOfIntrest} per annum form principal amount ${principal} is ${simpleIntrest}`);
+    </script>
+    
+</body>
+</html>
