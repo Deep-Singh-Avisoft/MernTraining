@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 3 05-02-24</title>
+</head>
+<body>
+    <h1>
+        Unit Converter
+    </h1>
+
+    <script>
+        let convertFrom = prompt("Unit you are converting from (kilometers, miles, meters, celsius, fahrenheit)", );
+        let convertTo = prompt("Unit you are converting to (kilometers, miles, meters, celsius, fahrenheit) ", );
+        let value = prompt("Enter the value you want to convert", );
+        value = parseInt(value)
+        let ans;
+        if(convertFrom == "kilometers" && convertTo == "miles"){
+            ans = value * 0.621371;
+        }
+        else if(convertFrom == "kilometers" && convertTo == "meters"){
+            ans = value * 1000;
+        }
+        else if(convertFrom == "meters" && convertTo == "kilometers"){
+            ans = value / 1000;
+        }
+        else if(convertFrom == "miles" && convertTo == "kilometers"){
+            ans = value / 0.621371;
+        }
+        else if(convertFrom == "meters" && convertTo == "miles"){
+            ans = value * 1000 * 0.321371;
+        }
+        else if(convertFrom == "celsius" && convertTo == "fahrenheit"){
+            ans = (value * 9/5) + 32;
+        }
+        else if(convertFrom == "fahrenheit" && convertTo == "celsius"){
+            ans = (value - 32) * 5/9;
+        }
+
+        alert(`After unit conversion unit = ${ans}`);
+    </script>
+    
+</body>
+</html>
